@@ -1,0 +1,320 @@
+{
+  "plan_sha256": "97615420dc9ad7ba468219cf8cd270bceebb1f643073fd80d22904f057bef2bc",
+  "choices": [
+    {
+      "params": {},
+      "candidate": null,
+      "threshold": null,
+      "score_method": "predict_proba",
+      "model": "Dummy",
+      "outer_fold": 1
+    },
+    {
+      "params": {
+        "model__C": 0.01,
+        "model__class_weight": "balanced"
+      },
+      "candidate": 1,
+      "inner_mean_ap": 0.2459083371044573,
+      "threshold": 0.6027829710642005,
+      "inner_oof_f2": 0.4277456647398843,
+      "score_method": "predict_proba",
+      "model": "LR",
+      "outer_fold": 1
+    },
+    {
+      "params": {
+        "model__class_weight": "balanced",
+        "model__max_depth": 4,
+        "model__min_samples_leaf": 10
+      },
+      "candidate": 5,
+      "inner_mean_ap": 0.2502812033891745,
+      "threshold": 0.4977311616955516,
+      "inner_oof_f2": 0.42,
+      "score_method": "predict_proba",
+      "model": "RF",
+      "outer_fold": 1
+    },
+    {
+      "params": {
+        "model__C": 0.1,
+        "model__class_weight": "balanced",
+        "model__gamma": 0.1
+      },
+      "candidate": 3,
+      "inner_mean_ap": 0.2309197362001778,
+      "threshold": 0.4731039022192138,
+      "inner_oof_f2": 0.4063205417607224,
+      "score_method": "decision_function",
+      "model": "RBF-SVM",
+      "outer_fold": 1
+    },
+    {
+      "params": {
+        "model__max_depth": 4,
+        "model__n_estimators": 100,
+        "model__scale_pos_weight": 1
+      },
+      "candidate": 4,
+      "inner_mean_ap": 0.25049301779886607,
+      "threshold": 0.08978170156478882,
+      "inner_oof_f2": 0.4322305229455709,
+      "score_method": "predict_proba",
+      "model": "XGBoost",
+      "outer_fold": 1
+    },
+    {
+      "params": {},
+      "candidate": null,
+      "threshold": null,
+      "score_method": "predict_proba",
+      "model": "Dummy",
+      "outer_fold": 2
+    },
+    {
+      "params": {
+        "model__C": 1.0,
+        "model__class_weight": null
+      },
+      "candidate": 4,
+      "inner_mean_ap": 0.2421009375619995,
+      "threshold": 0.10370677187276027,
+      "inner_oof_f2": 0.4085155350978136,
+      "score_method": "predict_proba",
+      "model": "LR",
+      "outer_fold": 2
+    },
+    {
+      "params": {
+        "model__class_weight": "balanced",
+        "model__max_depth": 4,
+        "model__min_samples_leaf": 3
+      },
+      "candidate": 4,
+      "inner_mean_ap": 0.25188025713138257,
+      "threshold": 0.503326292189925,
+      "inner_oof_f2": 0.431211498973306,
+      "score_method": "predict_proba",
+      "model": "RF",
+      "outer_fold": 2
+    },
+    {
+      "params": {
+        "model__C": 0.1,
+        "model__class_weight": "balanced",
+        "model__gamma": 0.1
+      },
+      "candidate": 3,
+      "inner_mean_ap": 0.22784429984567495,
+      "threshold": 0.01933584140541378,
+      "inner_oof_f2": 0.41509433962264153,
+      "score_method": "decision_function",
+      "model": "RBF-SVM",
+      "outer_fold": 2
+    },
+    {
+      "params": {
+        "model__max_depth": 4,
+        "model__n_estimators": 100,
+        "model__scale_pos_weight": 5
+      },
+      "candidate": 5,
+      "inner_mean_ap": 0.24983915379798952,
+      "threshold": 0.193006232380867,
+      "inner_oof_f2": 0.38888888888888884,
+      "score_method": "predict_proba",
+      "model": "XGBoost",
+      "outer_fold": 2
+    },
+    {
+      "params": {},
+      "candidate": null,
+      "threshold": null,
+      "score_method": "predict_proba",
+      "model": "Dummy",
+      "outer_fold": 3
+    },
+    {
+      "params": {
+        "model__C": 0.1,
+        "model__class_weight": null
+      },
+      "candidate": 2,
+      "inner_mean_ap": 0.20181517856887266,
+      "threshold": 0.07314518963111173,
+      "inner_oof_f2": 0.39883268482490264,
+      "score_method": "predict_proba",
+      "model": "LR",
+      "outer_fold": 3
+    },
+    {
+      "params": {
+        "model__class_weight": null,
+        "model__max_depth": null,
+        "model__min_samples_leaf": 10
+      },
+      "candidate": 3,
+      "inner_mean_ap": 0.22371781100342894,
+      "threshold": 0.10042105780081285,
+      "inner_oof_f2": 0.42120911793855303,
+      "score_method": "predict_proba",
+      "model": "RF",
+      "outer_fold": 3
+    },
+    {
+      "params": {
+        "model__C": 0.1,
+        "model__class_weight": "balanced",
+        "model__gamma": "scale"
+      },
+      "candidate": 2,
+      "inner_mean_ap": 0.20001997367118513,
+      "threshold": 0.07006020517360056,
+      "inner_oof_f2": 0.41932543299908853,
+      "score_method": "decision_function",
+      "model": "RBF-SVM",
+      "outer_fold": 3
+    },
+    {
+      "params": {
+        "model__max_depth": 2,
+        "model__n_estimators": 100,
+        "model__scale_pos_weight": 5
+      },
+      "candidate": 1,
+      "inner_mean_ap": 0.24609128806112074,
+      "threshold": 0.3053307831287384,
+      "inner_oof_f2": 0.4236453201970443,
+      "score_method": "predict_proba",
+      "model": "XGBoost",
+      "outer_fold": 3
+    },
+    {
+      "params": {},
+      "candidate": null,
+      "threshold": null,
+      "score_method": "predict_proba",
+      "model": "Dummy",
+      "outer_fold": 4
+    },
+    {
+      "params": {
+        "model__C": 0.01,
+        "model__class_weight": "balanced"
+      },
+      "candidate": 1,
+      "inner_mean_ap": 0.23824467716129716,
+      "threshold": 0.6098361252073117,
+      "inner_oof_f2": 0.4312354312354312,
+      "score_method": "predict_proba",
+      "model": "LR",
+      "outer_fold": 4
+    },
+    {
+      "params": {
+        "model__class_weight": null,
+        "model__max_depth": null,
+        "model__min_samples_leaf": 10
+      },
+      "candidate": 3,
+      "inner_mean_ap": 0.2345864914000589,
+      "threshold": 0.05660803167723626,
+      "inner_oof_f2": 0.39907904834996155,
+      "score_method": "predict_proba",
+      "model": "RF",
+      "outer_fold": 4
+    },
+    {
+      "params": {
+        "model__C": 0.1,
+        "model__class_weight": "balanced",
+        "model__gamma": "scale"
+      },
+      "candidate": 2,
+      "inner_mean_ap": 0.20520480465732502,
+      "threshold": -0.10904116626310534,
+      "inner_oof_f2": 0.4035874439461883,
+      "score_method": "decision_function",
+      "model": "RBF-SVM",
+      "outer_fold": 4
+    },
+    {
+      "params": {
+        "model__max_depth": 4,
+        "model__n_estimators": 100,
+        "model__scale_pos_weight": 5
+      },
+      "candidate": 5,
+      "inner_mean_ap": 0.22885537327305855,
+      "threshold": 0.22057406604290009,
+      "inner_oof_f2": 0.37107516650808753,
+      "score_method": "predict_proba",
+      "model": "XGBoost",
+      "outer_fold": 4
+    },
+    {
+      "params": {},
+      "candidate": null,
+      "threshold": null,
+      "score_method": "predict_proba",
+      "model": "Dummy",
+      "outer_fold": 5
+    },
+    {
+      "params": {
+        "model__C": 0.1,
+        "model__class_weight": null
+      },
+      "candidate": 2,
+      "inner_mean_ap": 0.2614900888348713,
+      "threshold": 0.07290104458832887,
+      "inner_oof_f2": 0.4500978473581213,
+      "score_method": "predict_proba",
+      "model": "LR",
+      "outer_fold": 5
+    },
+    {
+      "params": {
+        "model__class_weight": null,
+        "model__max_depth": null,
+        "model__min_samples_leaf": 10
+      },
+      "candidate": 3,
+      "inner_mean_ap": 0.2750420000357849,
+      "threshold": 0.07368331839081947,
+      "inner_oof_f2": 0.44337137840210716,
+      "score_method": "predict_proba",
+      "model": "RF",
+      "outer_fold": 5
+    },
+    {
+      "params": {
+        "model__C": 0.1,
+        "model__class_weight": "balanced",
+        "model__gamma": "scale"
+      },
+      "candidate": 2,
+      "inner_mean_ap": 0.23382856727302165,
+      "threshold": 0.23584999793919054,
+      "inner_oof_f2": 0.4504504504504504,
+      "score_method": "decision_function",
+      "model": "RBF-SVM",
+      "outer_fold": 5
+    },
+    {
+      "params": {
+        "model__max_depth": 2,
+        "model__n_estimators": 200,
+        "model__scale_pos_weight": 5
+      },
+      "candidate": 3,
+      "inner_mean_ap": 0.2520900461837362,
+      "threshold": 0.3616630733013153,
+      "inner_oof_f2": 0.4656319290465632,
+      "score_method": "predict_proba",
+      "model": "XGBoost",
+      "outer_fold": 5
+    }
+  ]
+}

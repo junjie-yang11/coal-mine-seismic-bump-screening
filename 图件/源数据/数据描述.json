@@ -1,0 +1,24 @@
+{
+  "records": 2584,
+  "positives": 170,
+  "negatives": 2414,
+  "constant_numeric_fields_omitted_from_correlation": [
+    "nbumps6",
+    "nbumps7",
+    "nbumps89"
+  ],
+  "correlation_fields": [
+    "genergy",
+    "gpuls",
+    "gdenergy",
+    "gdpuls",
+    "nbumps",
+    "nbumps2",
+    "nbumps3",
+    "nbumps4",
+    "nbumps5",
+    "energy",
+    "maxenergy"
+  ],
+  "scope": "Descriptive all-record summaries after the frozen evaluation; not feature selection or model fitting."
+}

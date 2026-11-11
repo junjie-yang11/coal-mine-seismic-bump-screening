@@ -1,0 +1,10 @@
+Nature Figure Rendered Collision Audit
+pdf: manuscript-review\20261107\重绘图件\图件\PDF\fig08_detection_workload.pdf
+pages: 1
+visible text boxes: 35
+stroke paths: 22
+
+
+summary: 0 fail, 0 warn, 8 contained fill overlays, 0 contained image overlays
+verdict: PASS
+note: contained overlays can be intentional; WARN findings need final-size visual review

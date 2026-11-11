@@ -1,0 +1,1 @@
+Three targeted checks passed: same-score groups, higher F2 tie, stale-success invalidation.

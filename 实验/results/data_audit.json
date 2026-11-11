@@ -1,0 +1,29 @@
+{
+  "n": 2584,
+  "features": 18,
+  "positives": 170,
+  "groups": 2578,
+  "repeated_after_first": 6,
+  "categorical_features": [
+    "seismic",
+    "seismoacoustic",
+    "shift",
+    "ghazard"
+  ],
+  "numeric_features": [
+    "genergy",
+    "gpuls",
+    "gdenergy",
+    "gdpuls",
+    "nbumps",
+    "nbumps2",
+    "nbumps3",
+    "nbumps4",
+    "nbumps5",
+    "nbumps6",
+    "nbumps7",
+    "nbumps89",
+    "energy",
+    "maxenergy"
+  ]
+}

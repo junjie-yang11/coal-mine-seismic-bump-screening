@@ -1,0 +1,10 @@
+Nature Figure Rendered Collision Audit
+pdf: manuscript-review\20261107\重绘图件\图件\PDF\fig07_confusion.pdf
+pages: 1
+visible text boxes: 59
+stroke paths: 7
+
+
+summary: 0 fail, 0 warn, 32 contained fill overlays, 32 contained image overlays
+verdict: PASS
+note: contained overlays can be intentional; WARN findings need final-size visual review

@@ -1,0 +1,98 @@
+{
+  "dataset": "UCI Seismic Bumps",
+  "source_url": "https://archive.ics.uci.edu/dataset/266/seismic+bumps",
+  "arff_sha256": "aabe512fab65b36d1dfb462650b75cfd8d99d8cc2723e8ecb4e6f5e1caccd5a7",
+  "grids": {
+    "LR": {
+      "C": [
+        0.01,
+        0.1,
+        1.0,
+        10.0
+      ],
+      "class_weight": [
+        null,
+        "balanced"
+      ]
+    },
+    "RF": {
+      "max_depth": [
+        4,
+        null
+      ],
+      "min_samples_leaf": [
+        3,
+        10
+      ],
+      "class_weight": [
+        null,
+        "balanced"
+      ]
+    },
+    "RBF-SVM": {
+      "C": [
+        0.1,
+        1.0,
+        10.0
+      ],
+      "gamma": [
+        "scale",
+        0.1
+      ],
+      "class_weight": [
+        null,
+        "balanced"
+      ]
+    },
+    "XGBoost": {
+      "max_depth": [
+        2,
+        4
+      ],
+      "n_estimators": [
+        100,
+        200
+      ],
+      "scale_pos_weight": [
+        1,
+        5
+      ]
+    }
+  },
+  "xgboost_fixed": {
+    "objective": "binary:logistic",
+    "tree_method": "hist",
+    "learning_rate": 0.05,
+    "n_jobs": 1
+  },
+  "model_seed": 44,
+  "threshold": {
+    "source": "pooled training out-of-fold scores of the selected configuration for each model",
+    "objective": "F2",
+    "decision": "score >= threshold",
+    "tie": "higher threshold"
+  },
+  "design": "one stratified grouped nested 5x5 cross-validation, not repeated random splitting",
+  "outer": {
+    "folds": 5,
+    "seed": 42
+  },
+  "inner": {
+    "folds": 5,
+    "seed": 43
+  },
+  "model_pool": [
+    "LR",
+    "RF",
+    "RBF-SVM",
+    "XGBoost"
+  ],
+  "baseline": "constant training prevalence; all decisions negative",
+  "primary": "mean of five outer-fold APs, population SD ddof=0; fold-level paired differences",
+  "secondary": "summed confusion counts and pooled out-of-fold AP, with score-scale caveat",
+  "no_primary_model_selection": true,
+  "ties": "first grid candidate by ParameterGrid order; higher F2 threshold",
+  "uncertainty": "fold dispersion is descriptive; shared training sets preclude independent-fold inference",
+  "scope": "retrospective development using a previously studied dataset; random groups are not timestamps or workfaces",
+  "locked_before_run": true
+}

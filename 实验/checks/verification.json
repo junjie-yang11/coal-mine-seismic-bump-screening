@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "passed": true,
+  "scope": "25 saved-model replays, independent AP/confusion counts and F2 cutoff, candidate/choice audit, split isolation, frozen-score label perturbation, and summary reconciliation; no rerun of all candidate fits",
+  "elapsed_seconds": 2.5940000000009604,
+  "models_replayed": 25,
+  "scores_replayed": 12920,
+  "plan_sha256": "97615420dc9ad7ba468219cf8cd270bceebb1f643073fd80d22904f057bef2bc",
+  "verifier_sha256": "4e19dc0e0268a6aa75e08b0f90f0dbba656be55e418e709116d550cc074b738e"
+}

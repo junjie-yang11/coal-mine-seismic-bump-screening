@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "passed": true,
+  "scope": "Independent trace from source rows to saved rank order, exact per-fold capacities, selected counts, pooled counts and all paired positive-list comparisons. No model replay/refitting or population inference.",
+  "groups_verified": 80,
+  "ranked_rows_verified": 41344,
+  "elapsed_seconds": 0.26106820000859443
+}

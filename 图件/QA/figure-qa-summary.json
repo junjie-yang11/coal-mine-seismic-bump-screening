@@ -1,0 +1,142 @@
+[
+  {
+    "figure": "fig01_data_profile",
+    "font_exit": 0,
+    "font_min_pt": null,
+    "font_below_minimum": 0,
+    "collision_exit": 0,
+    "collision_verdict": "PASS",
+    "collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 0,
+      "contained_image_overlays": 0
+    }
+  },
+  {
+    "figure": "fig02_feature_structure",
+    "font_exit": 0,
+    "font_min_pt": null,
+    "font_below_minimum": 0,
+    "collision_exit": 0,
+    "collision_verdict": "PASS",
+    "collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 0,
+      "contained_image_overlays": 0
+    }
+  },
+  {
+    "figure": "fig03_nested_workflow",
+    "font_exit": 0,
+    "font_min_pt": null,
+    "font_below_minimum": 0,
+    "collision_exit": 0,
+    "collision_verdict": "PASS",
+    "collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 14,
+      "contained_image_overlays": 0
+    }
+  },
+  {
+    "figure": "fig04_outer_ap",
+    "font_exit": 0,
+    "font_min_pt": null,
+    "font_below_minimum": 0,
+    "collision_exit": 0,
+    "collision_verdict": "PASS",
+    "collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 0,
+      "contained_image_overlays": 0
+    }
+  },
+  {
+    "figure": "fig05_pr_curves",
+    "font_exit": 0,
+    "font_min_pt": null,
+    "font_below_minimum": 0,
+    "collision_exit": 0,
+    "collision_verdict": "PASS",
+    "collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 0,
+      "contained_image_overlays": 0
+    }
+  },
+  {
+    "figure": "fig06_paired_folds",
+    "font_exit": 0,
+    "font_min_pt": null,
+    "font_below_minimum": 0,
+    "collision_exit": 0,
+    "collision_verdict": "PASS",
+    "collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 0,
+      "contained_image_overlays": 0
+    }
+  },
+  {
+    "figure": "fig07_confusion",
+    "font_exit": 0,
+    "font_min_pt": null,
+    "font_below_minimum": 0,
+    "collision_exit": 0,
+    "collision_verdict": "PASS",
+    "collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 32,
+      "contained_image_overlays": 32
+    }
+  },
+  {
+    "figure": "fig08_detection_workload",
+    "font_exit": 0,
+    "font_min_pt": null,
+    "font_below_minimum": 0,
+    "collision_exit": 0,
+    "collision_verdict": "PASS",
+    "collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 8,
+      "contained_image_overlays": 0
+    }
+  },
+  {
+    "figure": "fig09_fold_shift",
+    "font_exit": 0,
+    "font_min_pt": null,
+    "font_below_minimum": 0,
+    "collision_exit": 0,
+    "collision_verdict": "PASS",
+    "collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 0,
+      "contained_image_overlays": 0
+    }
+  },
+  {
+    "figure": "fig10_overlap",
+    "font_exit": 0,
+    "font_min_pt": null,
+    "font_below_minimum": 0,
+    "collision_exit": 0,
+    "collision_verdict": "PASS",
+    "collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 0,
+      "contained_image_overlays": 0
+    }
+  }
+]

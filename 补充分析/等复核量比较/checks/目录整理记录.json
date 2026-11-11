@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-11",
+  "scope": "Folder organization only; research data, results, models, figures, and historical verification retained.",
+  "before_file_count": 186,
+  "after_file_count": 185,
+  "moved_files": [
+    {
+      "from": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\run_comparison.py",
+      "to": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\code\\run_comparison.py"
+    },
+    {
+      "from": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\verify_comparison.py",
+      "to": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\code\\verify_comparison.py"
+    },
+    {
+      "from": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\build_report.py",
+      "to": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\code\\build_report.py"
+    },
+    {
+      "from": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\run_record.json",
+      "to": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\checks\\run_record.json"
+    },
+    {
+      "from": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\verification.json",
+      "to": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\checks\\verification.json"
+    },
+    {
+      "from": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\verification_初次计算.json",
+      "to": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\checks\\历史核验\\verification_初次计算.json"
+    },
+    {
+      "from": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\迁入清单.json",
+      "to": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\checks\\迁入清单.json"
+    },
+    {
+      "from": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\论文整合核验\\等复核量整合_修改记录.json",
+      "to": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\checks\\论文整合\\等复核量整合_修改记录.json"
+    },
+    {
+      "from": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\论文整合核验\\manuscript-verification.json",
+      "to": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\checks\\论文整合\\manuscript-verification.json"
+    },
+    {
+      "from": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\论文整合核验\\style-report-final.json",
+      "to": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\checks\\论文整合\\style-report-final.json"
+    },
+    {
+      "from": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\等复核量比较_结果说明.md",
+      "to": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较\\README.md"
+    }
+  ],
+  "removed_regenerable_cache_files": [
+    "[USER_HOME]\\Desktop\\矿震预测\\最终版\\代码\\__pycache__\\更新Word图件.cpython-312.pyc",
+    "[USER_HOME]\\Desktop\\矿震预测\\最终版\\代码\\__pycache__\\合并等复核量结果.cpython-312.pyc"
+  ],
+  "active_entry_points": [
+    "README.md",
+    "打开材料.html",
+    "论文",
+    "实验",
+    "补充分析",
+    "图件",
+    "代码"
+  ]
+}

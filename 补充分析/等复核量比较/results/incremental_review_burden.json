@@ -1,0 +1,7 @@
+{
+  "tp_difference": 24,
+  "fp_difference": 196,
+  "review_difference": 220,
+  "net_additional_reviews_per_net_additional_detection": 9.166666666666666,
+  "scope": "Descriptive net difference ratio for two non-nested saved lists; not money, time or causal marginal cost."
+}

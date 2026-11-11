@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-08",
+  "question": "At the same retrospective review workload, which saved model ranking covers more positive records?",
+  "status": "Written before running this supplementary analysis; existing data and earlier results have already been examined. Not a preregistration.",
+  "models": [
+    "LR",
+    "RF",
+    "RBF-SVM",
+    "XGBoost"
+  ],
+  "outer_folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "main_budget": 0.2,
+  "sensitivity_budgets": [
+    0.1,
+    0.3
+  ],
+  "supplement": "LR-count reference: each fold K equals the number of saved LR positive predictions in that fold. Uses no new test-label-based choice. Asymmetric reference, not an independently fixed capacity.",
+  "capacity": "For fixed budgets, K=floor(B*N_fold). Each model selects exactly K rows separately within the same outer test fold.",
+  "tie_rule": "Sort score descending, then ascending SHA256(ASCII string equal-review-v1|20261108|source_row), then source_row ascending. The same source-row priority is reused across models and settings. May split a tied score group to use exact K slots; this is batch Top-K, not a new numeric warning cutoff.",
+  "label_role": "Test labels only evaluate selected lists, never choose K, model, weights, cutoff tie priority or budget.",
+  "outcomes": [
+    "TP",
+    "FP",
+    "FN",
+    "review_count",
+    "precision",
+    "recall",
+    "paired detections",
+    "cutoff ties and attainable TP range across cutoff-tie choices"
+  ],
+  "comparisons": "all models; emphasize RF minus LR, with fold-level counts and pooled additive counts",
+  "uncertainty": "Descriptive saved-cohort comparison. No independent-fold significance test, population CI, or refit uncertainty estimate. Cutoff-tie TP ranges are combinatorial bounds, not confidence intervals.",
+  "prohibited": "No fitting, retuning, feature changes, frozen-threshold changes, or selection of final policy from these results.",
+  "inputs": {
+    "outer_predictions.csv": "06a48cd626bc7d32305a6f1834ecfdde44f635535e93b25e5edbb1a3953e29f0",
+    "outer_metrics.csv": "207995b30749e8de28e74132995952dfa590270c7ac9ab16ac63b63ecdf4fe51"
+  }
+}

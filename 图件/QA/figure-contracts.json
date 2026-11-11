@@ -1,0 +1,142 @@
+{
+  "backend": "Python / Matplotlib",
+  "archetype": "quantitative grid; fig03 protocol schematic",
+  "reuse": "style-only adaptation of the author's existing Python plotting code",
+  "target": "Chinese research manuscript, no journal submission certification",
+  "width_inches": 6.65,
+  "formats": [
+    "600-dpi PNG",
+    "editable SVG",
+    "vector PDF"
+  ],
+  "source_plot_sha256": "ba4ee16931ed8f7355ad5ad372fdfd45d53b8087a7a0f5751685f5d3e4e88865",
+  "source_hashes": {
+    "results/by_shift.csv": "134d871584f84b971720d4b86d53c82d7a47a05e2a51c9c0871a81d378140189",
+    "results/paired_fold_differences.csv": "04bf91f5350d95403d582ca929959b0452539e18a046cbc9c6b63c92a2f8f0f2",
+    "data/seismic-bumps.arff": "aabe512fab65b36d1dfb462650b75cfd8d99d8cc2723e8ecb4e6f5e1caccd5a7",
+    "run_nested.py": "c1860b8de2f9ad352a5c8e215a729c47e048e488e4bf66b63b3adee01da22521",
+    "common.py": "001c80f7e5434e778a0e0410af099cdb379b862310f9173ca148599f1314ff79",
+    "results/outer_predictions.csv": "06a48cd626bc7d32305a6f1834ecfdde44f635535e93b25e5edbb1a3953e29f0",
+    "locked_plan.json": "97615420dc9ad7ba468219cf8cd270bceebb1f643073fd80d22904f057bef2bc",
+    "results/outer_metrics.csv": "207995b30749e8de28e74132995952dfa590270c7ac9ab16ac63b63ecdf4fe51",
+    "results/positive_case_audit.csv": "eb588038ab02452bd2c0f0435984af7f9979bea5086329bdf7f21d8c14f79b39",
+    "results/model_summary.csv": "8adbc93c6668491feaae9f36bbb76e3e3a2ec9ca0005151cf568e992a6e9a675"
+  },
+  "figures": {
+    "fig01_data_profile": {
+      "claim": "Positive next-shift labels are rare; input energy distributions differ descriptively.",
+      "sources": [
+        "data/seismic-bumps.arff"
+      ],
+      "panels": {
+        "a": "all 2584 labels, no subsampling",
+        "b": "ECDF of log10(1+energy/J) by next-shift label"
+      },
+      "uncertainty": "none; whole-dataset description"
+    },
+    "fig02_feature_structure": {
+      "claim": "Some numerical monitoring variables overlap in rank information.",
+      "sources": [
+        "data/seismic-bumps.arff"
+      ],
+      "panels": {
+        "a": "Spearman correlation; constant columns omitted only because undefined"
+      },
+      "uncertainty": "none; not feature importance or causality"
+    },
+    "fig03_nested_workflow": {
+      "claim": "Configuration and threshold selection remain inside the current outer training fold.",
+      "sources": [
+        "locked_plan.json",
+        "common.py",
+        "run_nested.py"
+      ],
+      "panels": {
+        "a": "existing nested five-fold workflow; visual restyle only"
+      },
+      "uncertainty": "not applicable; protocol schematic"
+    },
+    "fig04_outer_ap": {
+      "claim": "Mean AP and fold-specific relative rankings describe complementary aspects of performance.",
+      "sources": [
+        "results/outer_metrics.csv",
+        "results/model_summary.csv"
+      ],
+      "panels": {
+        "a": "all five outer folds",
+        "b": "mean AP ± one fold SD (ddof=0)"
+      },
+      "uncertainty": "fold SD, not CI; overlapping training sets"
+    },
+    "fig05_pr_curves": {
+      "claim": "Precision-recall tradeoffs vary among outer folds for each classifier.",
+      "sources": [
+        "results/outer_predictions.csv"
+      ],
+      "panels": {
+        "a": "LR",
+        "b": "RF",
+        "c": "RBF-SVM",
+        "d": "XGBoost"
+      },
+      "uncertainty": "five observed fold curves, not confidence bands; no pooled score ranking"
+    },
+    "fig06_paired_folds": {
+      "claim": "The direction of paired AP differences can change across test folds.",
+      "sources": [
+        "results/paired_fold_differences.csv"
+      ],
+      "panels": {
+        "a": "six model pairs × five matched outer folds"
+      },
+      "uncertainty": "descriptive paired differences, no independent-fold inference"
+    },
+    "fig07_confusion": {
+      "claim": "Frozen decisions have both missed positives and false positive review burdens.",
+      "sources": [
+        "results/model_summary.csv"
+      ],
+      "panels": {
+        "a": "LR",
+        "b": "RF",
+        "c": "RBF-SVM",
+        "d": "XGBoost"
+      },
+      "uncertainty": "observed counts and percentages within true class, common 0–100% scale"
+    },
+    "fig08_detection_workload": {
+      "claim": "More detections accompany a longer review list at the saved frozen operating points.",
+      "sources": [
+        "results/model_summary.csv"
+      ],
+      "panels": {
+        "a": "TP versus TP+FP for all four models",
+        "b": "TP and FN among all 170 positives"
+      },
+      "uncertainty": "none; observed frozen decisions, not equal-capacity comparison"
+    },
+    "fig09_fold_shift": {
+      "claim": "Decision workload varies by fold and detections differ descriptively by input shift.",
+      "sources": [
+        "results/outer_metrics.csv",
+        "results/by_shift.csv"
+      ],
+      "panels": {
+        "a": "alert fraction by fold",
+        "b": "TP / positives by input shift W or N"
+      },
+      "uncertainty": "no causal interpretation; N positives=17, W=153"
+    },
+    "fig10_overlap": {
+      "claim": "Models detect overlapping positive records and jointly miss 46.",
+      "sources": [
+        "results/positive_case_audit.csv"
+      ],
+      "panels": {
+        "a": "positive count for every observed detection pattern",
+        "b": "model membership for the same pattern columns"
+      },
+      "uncertainty": "each of 170 positives contributes once; frozen thresholds only"
+    }
+  }
+}

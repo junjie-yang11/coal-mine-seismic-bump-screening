@@ -1,0 +1,65 @@
+[
+  {
+    "params": {},
+    "candidate": null,
+    "threshold": null,
+    "score_method": "predict_proba",
+    "model": "Dummy",
+    "outer_fold": 4
+  },
+  {
+    "params": {
+      "model__C": 0.01,
+      "model__class_weight": "balanced"
+    },
+    "candidate": 1,
+    "inner_mean_ap": 0.23824467716129716,
+    "threshold": 0.6098361252073117,
+    "inner_oof_f2": 0.4312354312354312,
+    "score_method": "predict_proba",
+    "model": "LR",
+    "outer_fold": 4
+  },
+  {
+    "params": {
+      "model__class_weight": null,
+      "model__max_depth": null,
+      "model__min_samples_leaf": 10
+    },
+    "candidate": 3,
+    "inner_mean_ap": 0.2345864914000589,
+    "threshold": 0.05660803167723626,
+    "inner_oof_f2": 0.39907904834996155,
+    "score_method": "predict_proba",
+    "model": "RF",
+    "outer_fold": 4
+  },
+  {
+    "params": {
+      "model__C": 0.1,
+      "model__class_weight": "balanced",
+      "model__gamma": "scale"
+    },
+    "candidate": 2,
+    "inner_mean_ap": 0.20520480465732502,
+    "threshold": -0.10904116626310534,
+    "inner_oof_f2": 0.4035874439461883,
+    "score_method": "decision_function",
+    "model": "RBF-SVM",
+    "outer_fold": 4
+  },
+  {
+    "params": {
+      "model__max_depth": 4,
+      "model__n_estimators": 100,
+      "model__scale_pos_weight": 5
+    },
+    "candidate": 5,
+    "inner_mean_ap": 0.22885537327305855,
+    "threshold": 0.22057406604290009,
+    "inner_oof_f2": 0.37107516650808753,
+    "score_method": "predict_proba",
+    "model": "XGBoost",
+    "outer_fold": 4
+  }
+]

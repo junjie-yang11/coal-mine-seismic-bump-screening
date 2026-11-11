@@ -1,0 +1,71 @@
+{
+  "From": "[USER_HOME]\\Desktop\\矿震预测\\等复核量比较",
+  "To": "[USER_HOME]\\Desktop\\矿震预测\\最终版\\补充分析\\等复核量比较",
+  "VerifiedFiles": 16,
+  "Files": [
+    {
+      "RelativePath": "等复核量比较_结果说明.md",
+      "SHA256": "8D87F29D62C1A0F95A7B8056A0175E0DB56BA5BC2255B0E7902D4307099626A5"
+    },
+    {
+      "RelativePath": "analysis_plan.json",
+      "SHA256": "ADE398092D5F02DBEA8EF99577ECDEF9BFA05C3A5B4852BFAF704CEE9FF651EB"
+    },
+    {
+      "RelativePath": "build_report.py",
+      "SHA256": "9DEDE0D9CE96497C88E38B62ABF6FC9B159DE0DAD7A0DBD985BA224B8A011977"
+    },
+    {
+      "RelativePath": "run_comparison.py",
+      "SHA256": "026387EAC5463D7CF168911BC4629234036C1E5A631976E548FA94727321AB0B"
+    },
+    {
+      "RelativePath": "run_record.json",
+      "SHA256": "5B5D9730AA378B4B2AE44B67035A060771BFD12CC3F67108FDC81AC449BB2154"
+    },
+    {
+      "RelativePath": "verification.json",
+      "SHA256": "D76473783A6E98512F5FA2F10EABC2AC8822045CC1F570CA1AD7B98E00E6C3E2"
+    },
+    {
+      "RelativePath": "verify_comparison.py",
+      "SHA256": "1143631C1CC1701EC932A6AAE8E1C1DDC1F977E45FE85D07289AB764A6F6BA92"
+    },
+    {
+      "RelativePath": "inputs\\outer_metrics.csv",
+      "SHA256": "207995B30749E8DE28E74132995952DFA590270C7AC9AB16AC63B63ECDF4FE51"
+    },
+    {
+      "RelativePath": "inputs\\outer_predictions.csv",
+      "SHA256": "06A48CD626BC7D32305A6F1834ECFDDE44F635535E93B25E5EDBB1A3953E29F0"
+    },
+    {
+      "RelativePath": "results\\cutoff_tie_audit.csv",
+      "SHA256": "3594B9BE2D4B9A7E057DA9926EFB23C13FAD45F60B807B688807DB320B58FCFE"
+    },
+    {
+      "RelativePath": "results\\fold_results.csv",
+      "SHA256": "4FBCF1811F0A48067D1428932AD3F2F3C9505D6AFC3F366EB4E9399BC50C049B"
+    },
+    {
+      "RelativePath": "results\\incremental_review_burden.json",
+      "SHA256": "9A789B5A8B53C2441D2C3AFF5944D1560606133FC082DA55B92647A49721D7E0"
+    },
+    {
+      "RelativePath": "results\\original_frozen_threshold_results.csv",
+      "SHA256": "85D1A2C64A0A589E9C4C666657FFBFC914D852395E452201D8D0F61DDBB3A3B1"
+    },
+    {
+      "RelativePath": "results\\paired_fold_comparisons.csv",
+      "SHA256": "9DDA83D0AEB8E5B70452D46047C891E184A306C31481AAC4DD1425827A8D49CC"
+    },
+    {
+      "RelativePath": "results\\pooled_results.csv",
+      "SHA256": "919F84BC5AE864278A00A7042ACEBD844B7F68E3B8EE9EFE498B4D7189F41E10"
+    },
+    {
+      "RelativePath": "results\\ranked_decisions.csv",
+      "SHA256": "CC497A2F4A90C0BF13494A8269B90DAF0D25AD397A5E4D6BEE77762020C635E5"
+    }
+  ]
+}

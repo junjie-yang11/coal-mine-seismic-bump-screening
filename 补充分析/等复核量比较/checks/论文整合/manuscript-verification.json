@@ -1,0 +1,60 @@
+{
+  "scope": "Exact post-edit DOCX/PDF and saved-score table integration; not model refitting or external validation",
+  "docx_sha256": "7b51f9a226b738b748a978b074ae8ca1e5f30edc739a640f251b253e9f45b9da",
+  "pdf_sha256": "194de6430d9439dc710f7d3b1fb313c8578408fafc377d8af325d7321ecd20bd",
+  "page_count": 15,
+  "tables": 9,
+  "figures": 10,
+  "native_word_equations": 3,
+  "references": 14,
+  "tracked_changes": 0,
+  "comments": 0,
+  "placeholders_found": 0,
+  "sections": [
+    {
+      "page_width_mm": 210.01,
+      "page_height_mm": 297.0,
+      "top_margin_mm": 19.05,
+      "bottom_margin_mm": 19.05,
+      "left_margin_mm": 21.34,
+      "right_margin_mm": 21.34
+    }
+  ],
+  "evidence_checks": {
+    "fixed_20pct_tp_LR_RF_SVM_XGB": [
+      98,
+      100,
+      94,
+      90
+    ],
+    "LR_count_reference_tp_LR_RF": [
+      94,
+      97
+    ]
+  },
+  "visual_review": {
+    "renderer": "Microsoft Word ExportAsFixedFormat; PDF rasterized with PyMuPDF 1.28.2",
+    "pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "clipping_or_overlap": false,
+    "broken_tables": false,
+    "missing_glyphs": false,
+    "appendix_tables_A2_A3_and_notes_together": true
+  },
+  "format_profile": "General Chinese academic technical-paper format; no venue-specific template was supplied"
+}

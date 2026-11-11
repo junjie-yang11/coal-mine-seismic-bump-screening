@@ -1,0 +1,52 @@
+[
+  {
+    "figure": "fig01_data_profile",
+    "minimum_found_pt": 6.3,
+    "font_exit_pass": true
+  },
+  {
+    "figure": "fig02_feature_structure",
+    "minimum_found_pt": 6.7,
+    "font_exit_pass": true
+  },
+  {
+    "figure": "fig03_nested_workflow",
+    "minimum_found_pt": 7.0,
+    "font_exit_pass": true
+  },
+  {
+    "figure": "fig04_outer_ap",
+    "minimum_found_pt": 8.0,
+    "font_exit_pass": true
+  },
+  {
+    "figure": "fig05_pr_curves",
+    "minimum_found_pt": 8.0,
+    "font_exit_pass": true
+  },
+  {
+    "figure": "fig06_paired_folds",
+    "minimum_found_pt": 8.0,
+    "font_exit_pass": true
+  },
+  {
+    "figure": "fig07_confusion",
+    "minimum_found_pt": 8.0,
+    "font_exit_pass": true
+  },
+  {
+    "figure": "fig08_detection_workload",
+    "minimum_found_pt": 7.0,
+    "font_exit_pass": true
+  },
+  {
+    "figure": "fig09_fold_shift",
+    "minimum_found_pt": 7.0,
+    "font_exit_pass": true
+  },
+  {
+    "figure": "fig10_overlap",
+    "minimum_found_pt": 7.0,
+    "font_exit_pass": true
+  }
+]

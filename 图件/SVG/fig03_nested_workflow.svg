@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="478.8pt" height="248.4pt" viewBox="0 0 478.8 248.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-07T23:38:53.643029</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 248.4 
+L 478.8 248.4 
+L 478.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 23.36544 59.3676 
+L 455.43456 59.3676 
+L 455.43456 36.1422 
+L 23.36544 36.1422 
+z
+" clip-path="url(#p82ba76a340)" style="fill: #f3f5f7; stroke: #7f898f; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 23.36544 101.5956 
+L 279.90648 101.5956 
+L 279.90648 78.3702 
+L 23.36544 78.3702 
+z
+" clip-path="url(#p82ba76a340)" style="fill: #e7eff4; stroke: #7f898f; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 324.91368 101.5956 
+L 455.43456 101.5956 
+L 455.43456 78.3702 
+L 324.91368 78.3702 
+z
+" clip-path="url(#p82ba76a340)" style="fill: #f3f5f7; stroke: #7f898f; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 23.36544 145.935 
+L 279.90648 145.935 
+L 279.90648 120.5982 
+L 23.36544 120.5982 
+z
+" clip-path="url(#p82ba76a340)" style="fill: #e7eff4; stroke: #7f898f; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 324.91368 145.935 
+L 455.43456 145.935 
+L 455.43456 120.5982 
+L 324.91368 120.5982 
+z
+" clip-path="url(#p82ba76a340)" style="fill: #f3f5f7; stroke: #7f898f; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 23.36544 190.2744 
+L 455.43456 190.2744 
+L 455.43456 164.9376 
+L 23.36544 164.9376 
+z
+" clip-path="url(#p82ba76a340)" style="fill: #f3f5f7; stroke: #7f898f; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 23.36544 234.6138 
+L 455.43456 234.6138 
+L 455.43456 209.277 
+L 23.36544 209.277 
+z
+" clip-path="url(#p82ba76a340)" style="fill: #e7eff4; stroke: #7f898f; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Microsoft YaHei'; text-anchor: start; fill: #222a30" x="14.364" y="19.468357" transform="rotate(-0 14.364 19.468357)">a</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'Arial', 'Microsoft YaHei'; text-anchor: start; fill: #222a30" x="26.364" y="19.468357" transform="rotate(-0 26.364 19.468357)">统一四模型嵌套五折流程</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 7px; font-family: 'Arial', 'Microsoft YaHei'; fill: #222a30" transform="translate(166.273516 45.74927)">2,584 条班次记录 · 18 个输入 · 170 条危险记录</text>
+    <text style="font-size: 7px; font-family: 'Arial', 'Microsoft YaHei'; fill: #222a30" transform="translate(179.9 54.629358)">相同输入同组；外层随机分层分组五折</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7px; font-family: 'Arial', 'Microsoft YaHei'; fill: #222a30" transform="translate(113.13596 87.989301)">每轮四折作为外层训练集</text>
+    <text style="font-size: 7px; font-family: 'Arial', 'Microsoft YaHei'; fill: #222a30" transform="translate(78.585491 96.867749)">内层分层分组五折，四模型分别按平均 AP 选参</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 7px; font-family: 'Arial', 'Microsoft YaHei'; fill: #222a30" transform="translate(362.17412 87.985473)">另一折作为测试集</text>
+    <text style="font-size: 7px; font-family: 'Arial', 'Microsoft YaHei'; fill: #222a30" transform="translate(362.17412 96.871577)">外层测试始终隔离</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 149.3856 61.367141 
+Q 149.3856 68.870322 149.3856 75.590879 
+" style="fill: none; stroke: #59646b; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 151.1856 71.990879 
+L 149.3856 75.590879 
+L 147.5856 71.990879 
+" style="fill: none; stroke: #59646b; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 390.17412 61.367141 
+Q 390.17412 68.870322 390.17412 75.590879 
+" style="fill: none; stroke: #59646b; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 391.97412 71.990879 
+L 390.17412 75.590879 
+L 388.37412 71.990879 
+" style="fill: none; stroke: #59646b; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7px; font-family: 'Arial', 'Microsoft YaHei'; fill: #222a30" transform="translate(86.10721 131.259329)">所选配置生成训练折外分数，按 F2 选阈值</text>
+    <text style="font-size: 7px; font-family: 'Arial', 'Microsoft YaHei'; fill: #222a30" transform="translate(106.13596 140.155277)">在全部外层训练集重拟合模型</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 149.3856 103.595141 
+Q 149.3856 111.098322 149.3856 117.818879 
+" style="fill: none; stroke: #59646b; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 151.1856 114.218879 
+L 149.3856 117.818879 
+L 147.5856 114.218879 
+" style="fill: none; stroke: #59646b; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7px; font-family: 'Arial', 'Microsoft YaHei'; fill: #222a30" transform="translate(365.67412 131.289954)">冻结模型和阈值</text>
+    <text style="font-size: 7px; font-family: 'Arial', 'Microsoft YaHei'; fill: #222a30" transform="translate(362.17412 140.144886)">评分外层测试记录</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 281.909059 133.2666 
+Q 302.412635 133.2666 322.133588 133.2666 
+" style="fill: none; stroke: #59646b; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 318.533588 131.4666 
+L 322.133588 133.2666 
+L 318.533588 135.0666 
+" style="fill: none; stroke: #59646b; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 390.17412 103.595141 
+Q 390.17412 111.098322 390.17412 117.818879 
+" style="fill: none; stroke: #59646b; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 391.97412 114.218879 
+L 390.17412 117.818879 
+L 388.37412 114.218879 
+" style="fill: none; stroke: #59646b; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7px; font-family: 'Arial', 'Microsoft YaHei'; fill: #222a30" transform="translate(144.9 175.611854)">轮换五个外层折：每条记录获得每种模型的一次外层测试预测</text>
+    <text style="font-size: 7px; font-family: 'Arial', 'Microsoft YaHei'; fill: #222a30" transform="translate(148.4 184.470614)">留存每折参数、阈值、分数及分类判定；另设恒定分数基线</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 390.17412 147.934541 
+Q 390.17412 155.437722 390.17412 162.158279 
+" style="fill: none; stroke: #59646b; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 391.97412 158.558279 
+L 390.17412 162.158279 
+L 388.37412 158.558279 
+" style="fill: none; stroke: #59646b; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7px; font-family: 'Arial', 'Microsoft YaHei'; fill: #222a30" transform="translate(141.583203 219.701879)">主要：逐折 AP 与五折平均 AP    |    分类：检出、误报与复核量</text>
+    <text style="font-size: 7px; font-family: 'Arial', 'Microsoft YaHei'; fill: #222a30" transform="translate(145.349531 228.799624)">辅助：共同漏报与输入班次分组；混合折分数的 AP 仅作补充</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 239.4 192.273941 
+Q 239.4 199.777122 239.4 206.497679 
+" style="fill: none; stroke: #59646b; stroke-width: 0.7; stroke-linecap: round"/>
+    <path d="M 241.2 202.897679 
+L 239.4 206.497679 
+L 237.6 202.897679 
+" style="fill: none; stroke: #59646b; stroke-width: 0.7; stroke-linecap: round"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p82ba76a340">
+   <rect x="14.364" y="29.808" width="450.072" height="211.14"/>
+  </clipPath>
+ </defs>
+</svg>

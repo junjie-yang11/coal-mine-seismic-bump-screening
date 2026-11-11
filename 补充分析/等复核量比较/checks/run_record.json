@@ -1,0 +1,22 @@
+{
+  "scope": "Saved-score batch Top-K analysis; no model fitting or numeric threshold transfer. Descriptive only.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "elapsed_seconds": 0.44895569999789586,
+  "plan_sha256": "ade398092d5f02dbea8ef99577ecdef9bfa05c3a5b4852bfaf704cee9ff651eb",
+  "input_hashes": {
+    "outer_predictions.csv": "06a48cd626bc7d32305a6f1834ecfdde44f635535e93b25e5edbb1a3953e29f0",
+    "outer_metrics.csv": "207995b30749e8de28e74132995952dfa590270c7ac9ab16ac63b63ecdf4fe51"
+  },
+  "fold_result_rows": 80,
+  "ranked_decision_rows": 41344,
+  "label_flip_list_invariance_checks": 80,
+  "lr_reference_matches_original_lists": true,
+  "edge_checks": [
+    "zero K",
+    "all rows K",
+    "tied-score exact capacity",
+    "input-order independence"
+  ],
+  "status": "completed"
+}

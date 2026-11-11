@@ -1,0 +1,15 @@
+{
+  "逐折PR曲线.csv": {
+    "rows": 9859,
+    "max_absolute_difference": 0.0
+  },
+  "输入变量_Spearman.csv": {
+    "rows": 11,
+    "max_absolute_difference": 3.552713678800501e-15
+  },
+  "混淆矩阵计数及比例.csv": {
+    "rows": 16,
+    "max_absolute_difference": 0.0
+  },
+  "source_files_unchanged": true
+}
