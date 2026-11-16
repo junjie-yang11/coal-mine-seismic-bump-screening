@@ -1,8 +1,24 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>煤矿矿震预测研究</title>
-<style>body{max-width:850px;margin:40px auto;padding:0 24px;font:17px/1.8 system-ui,"Microsoft YaHei",sans-serif;color:#25333d}h1{font-size:27px}h2{font-size:21px;margin-top:30px}a{color:#12668d}li{margin:9px 0}p{color:#53636c}.finding{background:#f3f7f9;border-left:4px solid #12668d;padding:12px 16px}</style>
-<h1>煤矿下一班次高能矿震分类预测研究</h1><p>等复核量整合版 · 15页 · 10张Python图件</p>
-<p class="finding"><strong>核心发现：</strong>班次监测数据包含可用的危险排序信息，但模型必须在相同复核名额下比较。原冻结阈值下RF较LR多检出24条、同时多复核220条；统一为每折前20%名额后，两者分别检出100条和98条。</p>
-<h2>1. 先读论文</h2><ul><li><a href="论文/煤矿下一班次高能矿震分类预测研究_等复核量整合版.pdf">PDF阅读稿</a> · <a href="论文/煤矿下一班次高能矿震分类预测研究_等复核量整合版.docx">当前 Word 稿</a>。PDF 早于 Word 的最后一次保存，两者的参考文献格式及部分链接有差异。</li><li><a href="论文/整合说明.md">本轮整合与核验说明</a></li></ul>
-<h2>2. 查看主要证据</h2><ul><li><a href="图件/PNG/fig04_outer_ap.png">逐折排序表现</a> · <a href="图件/PNG/fig08_detection_workload.png">检出与复核负担</a> · <a href="图件/PNG/fig10_overlap.png">共同检出与漏报</a></li><li><a href="实验/results/model_summary.csv">五折结果</a> · <a href="实验/results/positive_case_audit.csv">危险记录判定</a> · <a href="补充分析/等复核量比较/results/pooled_results.csv">等复核量汇总</a></li></ul>
-<h2>3. 查看等复核量分析</h2><ul><li><a href="补充分析/等复核量比较/README.md">结果说明</a> · <a href="补充分析/等复核量比较/analysis_plan.json">分析方案</a> · <a href="补充分析/等复核量比较/code/run_comparison.py">计算代码</a> · <a href="补充分析/等复核量比较/code/verify_comparison.py">独立核验</a></li></ul>
-<h2>4. 查看完整实现</h2><ul><li><a href="实验/locked_plan.json">原实验锁定方案</a> · <a href="实验/run_nested.py">训练与评价</a> · <a href="实验/verify_nested.py">模型回放核验</a> · <a href="代码/合并等复核量结果.py">论文整合生成器</a> · <a href="代码/绘图.py">绘图代码</a></li><li><a href="README.md">目录、执行顺序与研究边界</a></li></ul></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>煤矿下一班次高能矿震分类预测研究</title>
+<style>
+body { max-width: 800px; margin: 40px auto; padding: 0 24px; font: 17px/1.8 system-ui, "Microsoft YaHei", sans-serif; color: #25333d; }
+h1 { font-size: 27px; } h2 { font-size: 21px; margin-top: 26px; }
+a { color: #12668d; } li { margin: 8px 0; }
+</style>
+</head>
+<body>
+<h1>煤矿下一班次高能矿震分类预测研究</h1>
+<p>文献与格式修订版</p>
+<ul>
+  <li><a href="论文/煤矿下一班次高能矿震分类预测研究_文献与格式修订版.pdf">PDF 阅读稿</a> · <a href="论文/煤矿下一班次高能矿震分类预测研究_文献与格式修订版.docx">Word 编辑稿</a></li>
+  <li><a href="图件/图8_检出与复核名额/图8_检出与复核名额.png">图 8 检出与复核负担</a> · <a href="实验/results/model_summary.csv">五折汇总</a></li>
+  <li><a href="补充分析/等复核量比较/README.md">等复核量分析</a> · <a href="补充分析/等复核量比较/results/pooled_results.csv">各名额结果</a></li>
+  <li><a href="实验/run_nested.py">模型训练和评价</a> · <a href="补充分析/等复核量比较/code/run_comparison.py">等名额计算</a> · <a href="代码/绘制图8.py">图 8 绘图</a></li>
+  <li><a href="README.md">完整项目导航</a></li>
+</ul>
+</body>
+</html>

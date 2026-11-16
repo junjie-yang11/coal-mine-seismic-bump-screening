@@ -1,0 +1,11 @@
+{
+  "a": {
+    "path": "实验/results/model_summary.csv",
+    "sha256": "8adbc93c6668491feaae9f36bbb76e3e3a2ec9ca0005151cf568e992a6e9a675"
+  },
+  "b": {
+    "path": "补充分析/等复核量比较/results/pooled_results.csv",
+    "filter": "fixed_20pct",
+    "sha256": "919f84bc5ae864278a00a7042acebd844b7f68e3b8ee9efe498b4d7189f41e10"
+  }
+}
